@@ -1,0 +1,27 @@
+{ 
+	"name" : "FinalFaggotsy" ,
+	"description" : "Not a node package, but actually a node app for a simple rpg game" ,
+	"version": "0.0.0" ,
+	"author" : ["Tom Chen <foxnewsnetwork@gmail.com>", "Trevor Umeda <trevor.umeda@gmail.com>"] ,
+	"maintainers" : [ 
+		"foxnewsnetwork <foxnewsnetwork@gmail.com>" ,
+		"froggyP <trevor.umeda@gmail.com>"
+	] ,
+	"repository" : { 
+		"type" : "git" ,
+		"url" : "http://github.com/foxnewsnetwork/finalfaggotsy.git"
+	} ,
+	"dependencies" : { 
+		"underscore" : "1.3.x" ,
+		"socket.io" : "0.9.x" ,
+		"db-mysql" : "0.7.x" 
+	} ,
+	"devDependencies" : { 
+		"coffee-script" : "1.3.x" ,
+		"uglify-js" : "1.3.x" ,
+		"expresso" : "0.9.x" ,
+		"mocha" : "1.4.x" ,
+		"should" : "1.1.x" ,
+		"chai" : "1.2.x"
+	} 
+}
